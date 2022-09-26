@@ -1,6 +1,12 @@
+
+
+
 .card-container{
-    width: 300px;
+    width: 500px;
+    height: 200px;
     overflow: auto;
+    margin-top: 40px;
+    margin-left: 100px;
     box-shadow: 5px 5px 15px -5px;
     transition: 0.3s;
     animation: ease-in-out;
@@ -26,23 +32,26 @@
 
 h3,p{
     /* Resetting default value */
+
     margin: 0;
     padding: 0;
 }
 
 .card-title{
-    margin-bottom: 0.5rem;
+    margin-top: 30px;
+    margin-bottom: 1rem;
 }
 
 .btn{
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 
 }
 
 .btn button{
     padding: 0.5rem;
-    background-color: white;
+    background-color: #EDEDED;
     border: none;
     transition: 0.2s;
     margin-bottom: 0.5rem;
@@ -50,7 +59,7 @@ h3,p{
 }
 
 .btn button:hover{
-    background: rgb(0, 0, 0, 0.9);
+    background: rgb(0, 0, 0);
     color: white;
     transform: scale(1.1);
 }
@@ -61,3 +70,4 @@ a{
     text-decoration: none;
     font-weight: bold;
 }
+
