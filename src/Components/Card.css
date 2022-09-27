@@ -2,11 +2,11 @@
 
 
 .card-container{
-    width: 500px;
-    height: 200px;
+    width: 1000px;
+    height: 300px;
     overflow: auto;
-    margin-top: 40px;
-    margin-left: 100px;
+    margin: auto;
+    margin-top: 50px;
     box-shadow: 5px 5px 15px -5px;
     transition: 0.3s;
     animation: ease-in-out;
@@ -26,26 +26,27 @@
 }
 
 .card-content{
-    margin: 1rem;
-    margin-top: 0.5rem;
+    margin: 2rem;
+    margin-top: 1rem;
 }
 
 h3,p{
     /* Resetting default value */
-
-    margin: 0;
-    padding: 0;
+    margin: 3rem;
+    padding: 10px;
 }
 
 .card-title{
     margin-top: 30px;
     margin-bottom: 1rem;
+    
 }
 
 .btn{
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    color: white;
 
 }
 
@@ -61,11 +62,11 @@ h3,p{
 .btn button:hover{
     background: rgb(0, 0, 0);
     color: white;
-    transform: scale(1.1);
+    transform: scale(1.5);
 }
 
 
-a{
+a {
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;

@@ -11,12 +11,10 @@ function Card({title, body}) {
                 </div>
             </div>
             <div className="card-content">
-                
                 <div className="card-body">
                     <p>{body}</p>
                 </div>
             </div>
-            
             <div className="btn">
                 <button>
                     <a>
